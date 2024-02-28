@@ -11,9 +11,9 @@ Unlike some other data types, Java **cannot directly modify** a string once it's
 **Example:**
 
 ```java
-String name = "Alice";
+String name = "Parham";
 // Attempt to change:
-name += " Bob"; // This won't change the original "Alice"
+name += " Ali"; // This won't change the original "Alice"
 ```
 
 #### Declaration and Initialization
@@ -29,8 +29,8 @@ Want to combine two strings? Use the **`+` operator**:
 
 ```java
 String greeting = "Hello";
-String name = "John";
-String message = greeting + " " + name; // message becomes "Hello John"
+String name = "Parham";
+String message = greeting + " " + name; // message becomes "Hello Parham"
 ```
 
 There's also the **`concat()` method** for joining, but it doesn't change the original strings.
@@ -53,8 +53,8 @@ Want to create fancy output with strings and other data types? Use the `printf()
 **Example:**
 
 ```java
-String name = "Emily";
-int age = 25;
+String name = "Parham";
+int age = 28;
 System.out.printf("Hi, I'm %s and I'm %d years old.\n", name, age);
 ```
 
